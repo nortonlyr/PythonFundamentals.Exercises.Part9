@@ -17,9 +17,10 @@ def read_all_json_files(path):
             all_json_file.append(data2)
     return (all_json_files)
 
-def write_pickle():
+def write_pickle(path):
     path = os.path.join(obj,file, [protocol])
     pickle.dump(a,b,protocol)
 
     return super_smash_characters.pickle
-def load_pickle():
+def load_pickle(path):
+    return pickle.loads(path)
