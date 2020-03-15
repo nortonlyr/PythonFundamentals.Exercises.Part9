@@ -32,12 +32,11 @@ def write_pickle(path, data):
 
 write_pickle(path, data)
 
+
 #Part D
 def load_pickle(my_pickle):
     path = open('super_smash_characters.pickle', 'wb')
     pickle. dumps(int(my_pickle), path)
     print(path)
-
-    # return pickle.loads(path)
 
 load_pickle('/Users/nli/dev/PythonFundamentals.Exercises.Part9/data/super_smash_bros/')
